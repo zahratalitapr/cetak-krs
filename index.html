@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilih Mata Kuliah</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pilih Mata Kuliah (Maksimal 10 SKS)</h1>
+    <table id="course-table" border="1" name="courseTable">
+        <thead>
+            <tr>
+                <th>Kode</th>
+                <th>Mata Kuliah</th>
+                <th>SKS</th>
+                <th>Pilih</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CS101</td>
+                <td>Pemrograman Tersstruktur</td>
+                <td>3</td>
+                <td><input type="checkbox" value="3" class="sks-checkbox"></td>
+            </tr>
+            <tr>
+                <td>CS102</td>
+                <td>Pengenalan Basis Data</td>
+                <td>3</td>
+                <td><input type="checkbox" value="3" class="sks-checkbox"></td>
+            </tr>
+            <tr>
+                <td>CS103</td>
+                <td>Komunikasi Data</td>
+                <td>3</td>
+                <td><input type="checkbox" value="3" class="sks-checkbox"></td>
+            </tr>
+            <tr>
+                <td>CS104</td>
+                <td>Teknologi Informasi</td>
+                <td>3</td>
+                <td><input type="checkbox" value="3" class="sks-checkbox"></td>
+            </tr>
+            <tr>
+                <td>CS105</td>
+                <td>Sistem Berkas</td>
+                <td>3</td>
+                <td><input type="checkbox" value="3" class="sks-checkbox"></td>
+            </tr>
+            <tr>
+                <td>CS106</td>
+                <td>Bahasa Inggris 2</td>
+                <td>2</td>
+                <td><input type="checkbox" value="2" class="sks-checkbox"></td>
+            </tr>
+            <tr>
+                <td>CS107</td>
+                <td>Fisika Dasar</td>
+                <td>3</td>
+                <td><input type="checkbox" value="3" class="sks-checkbox"></td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <button onclick="kirim()">Kirim</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
